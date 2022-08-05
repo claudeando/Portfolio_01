@@ -62,7 +62,7 @@ function Project() {
                         <div className="project">
                             <img src="../assets/images/work/project/lealobanov.jpg" alt="lealobanov.com logo" />
                             <div className="projectDescription">
-                                <h3>EPS Full-stack Dev Portfolio</h3>
+                                <h3>Full-stack Dev Portfolio</h3>
                                 <br />
                                 <p>Lea Lobanov is a full-stack developer based in London. Counsulted for personal
                                     branding, designed the prototypes on Figma, built in React, deployed on AWS.

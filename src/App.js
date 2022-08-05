@@ -8,9 +8,8 @@ import Contact from './pages/Contact.js';
 import Error from './pages/404.js';
 
 import P5 from './p5.js';
-import Web3 from './web3.js';
-
 // import Web3 from './web3.js';
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -108,7 +107,7 @@ function App() {
         {/* <Error></Error> */}
       </main>
 
-      <Web3></Web3>
+      {/* <Web3></Web3> */}
       <Footer></Footer>
     </>
   );

@@ -162,7 +162,7 @@ ul li {
 }
 
 main button {
-  padding: 0.5rem 15rem 0.5rem 0;
+  padding: 0.5rem;
   color: var(--accent-color);
   background: transparent;
   border-bottom: 1px solid var(--accent-color);
@@ -178,14 +178,8 @@ main button {
 }
 
 main button:hover {
-  padding: 0.5rem 7.5rem;
+  padding: 0.5rem 6.5rem;
   transition: 800ms ease-in-out;
-}
-
-main a {
-  padding: 0rem 2rem 0rem 0rem;
-  color: var(--accent-color);
-  text-decoration: none;
 }
 
 
@@ -891,4 +885,10 @@ section {
   top: 0;
   right: 0;
   margin: 0.5rem;
+}
+
+@media (max-width: 950px) {
+  #web3Login {
+    display: none;
+  }
 }

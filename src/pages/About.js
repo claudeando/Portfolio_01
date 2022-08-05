@@ -10,7 +10,7 @@ function About() {
                         I DESIGN AND DEVELOP{` `}
                     </span>
                     <span>
-                        AMBICIOUS PROJECTS WITH{` `}
+                        AMBITIOUS PROJECTS WITH{` `}
                     </span>
                     <span>
                         TECHNOLOGY AND ART.
