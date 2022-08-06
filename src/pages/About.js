@@ -37,7 +37,7 @@ function About() {
                 <br />
                 <div className="aboutDescription2">
                     <div>
-                        <h4>DEVELOPMENT SKILLS:</h4>
+                        <h4>TECHNICAL SKILLS:</h4>
                         <br />
                         <p>
                             JavaScript /React / Node.js / HTML5 / CSS3 / SASS / Solidity /

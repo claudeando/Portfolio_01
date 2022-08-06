@@ -34,16 +34,19 @@ function Project() {
                     </ul>
                 </div>
 
-
                 <div id="project" data-tab-content className="active">
                     <div className="workGrid">
+
                         <div className="project">
-                            <img src="../assets/images/work/project/nocturna.io.jpg" alt="nocturna.io" />
+                            <a href="https://nocturna.io" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/images/work/project/nocturna.io.jpg" alt="nocturna.io" />
+                            </a>
                             <div className="projectDescription">
                                 <h3>Nocturna.io</h3>
                                 <br />
                                 <p>Nocturna.io is a tech startup based in London. They provides a B2M SaaS Toolkit that simplifies and transforms business processes in the Web3 space. The website was built on a CMS. The SaaS was designed in Figma, developped in React and Node.js, deployed on AWS with Route53, EC2, S3 configuration, pipelined with Circle CI. <br /><br /> More details coming soon.</p>
                             </div>
+
                         </div>
 
                         <div className="project">
@@ -51,24 +54,25 @@ function Project() {
                             <div className="projectDescription">
                                 <h3>Claude Ando Portfolio</h3>
                                 <br />
-                                <p>Claude Ando is a frontend developer and a digital artist based on London. This website was firstly built in Vanilla JavaScript and later migrated to React for scaling issue. The purpose of this website is to showcase my creative and development skillsets aquired overed the years. This website also authenticates if users own my NFT collection. Token holders will be redirected to a secret page of this website.
+                                <p>Claude Ando is a frontend developer and a digital artist based on London. This website was firstly built in Vanilla JavaScript and later migrated to React. The purpose of this website is to showcase my creative and development skillsets acquired overed the years. This website also authenticates if users own my NFT collection. Token holders will be redirected to a secret page of this website.
                                 </p>
                             </div>
                         </div>
 
                         <div className="nft">
-                            <a href="https://opensea.io/collection/collection-durham">
+                            <a href="https://opensea.io/collection/collection-durham" target="_blank" rel="noopener noreferrer">
                                 <img src="../assets/images/work/project/collection-du.jpg" alt="NFT collection durham" />
-                                <div className="nftDescription">
-                                    <h3>COLLECTION DURHAM</h3>
-                                    <br />
-                                    <p>This is my first NFT collection on OpenSea. The collection features 10 pieces from
-                                        Durham telling my story in Durham from #1 to #10 in numerical order. All media and metadata are permanently stored in decentralised file storage, IPFS.
-                                        Utility side of this collection: The token holders will be granted access to the
-                                        secret page of this website. More details coming.
-                                    </p>
-                                </div>
                             </a>
+                            <div className="nftDescription">
+                                <h3>COLLECTION DURHAM</h3>
+                                <br />
+                                <p>This is my first NFT collection on OpenSea. The collection features 10 pieces from
+                                    Durham telling my story in Durham from #1 to #10 in numerical order. All media and metadata are permanently stored in decentralised file storage, IPFS.
+                                    Utility side of this collection: The token holders will be granted access to the
+                                    secret page of this website. More details coming.
+                                </p>
+                            </div>
+
                         </div>
 
                         <div className="project">
@@ -76,7 +80,7 @@ function Project() {
                             <div className="projectDescription">
                                 <h3>Full-stack Dev Portfolio</h3>
                                 <br />
-                                <p>Lea Lobanov is a full-stack developer based in London. Counsulted for her personal brand and identity, designed on Figma, developed in Reac with web3 authentication injection, deployed on AWS, pipelined with Circle CI. The purpose of this website is to showcase her software enginnering skills and aquire ambitious web3 projects.
+                                <p>Lea Lobanov is a full-stack developer based in London. Counsulted for her personal brand and identity, designed on Figma, developed in Reac with web3 authentication injection, deployed on AWS, pipelined with Circle CI. The purpose of this website is to showcase her software enginnering skills and acquire ambitious web3 projects.
                                 </p>
                             </div>
                         </div>
@@ -105,10 +109,6 @@ function Project() {
                                     purposely designed by the artist and hold the highest rarity. All metadata is stored
                                     directly in the decentralised storage, IPFS.
                                 </p>
-                                <br />
-                                <div className="workLink">
-                                    <a href="https://opensea.io/collection/collection-durham">See on Opensea →</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,6 @@ function Project() {
                                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                                     deserunt mollit anim id est laborum.
                                 </p>
-                                <br />
                             </div>
                         </div>
                         <div className="art">

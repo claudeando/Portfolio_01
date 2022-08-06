@@ -1,6 +1,20 @@
+import React, { useState, useEffect } from 'react';
 import '../App.css';
 
 function Home() {
+
+    // // const [myName, setMyName] = useState();
+
+    // const myJpnName = document.getElementById('安藤蔵人');
+    // useEffect(() => {
+    //     myJpnName.addEventListener('mouseover', () => {
+    //         myJpnName.textContent = "CLAUDE ANDO";
+    //     })
+    //     // myJpnName.removeEventListener('mouseout', () => {
+    //     //     myJpnName.textContent = "CLAUDE ANDO";
+    //     // })
+    // }, [])
+
     return (
         <section id="home">
             <div className="homeBody1">
@@ -11,8 +25,7 @@ function Home() {
             <div className="homeBody2">
                 <h2><span id="changingText" /></h2>
                 <p>This is a Claude Ando creative portfolio where I showcase my web development skillsets
-                    coupled with my creative visions. Designed in Figma, developed in React with p5.js and
-                    web3.js injection, deployed on AWS with Route53, EC2, and S3 bucket configuration, pipelined with Circle CI.
+                    coupled with my creative visions. Designed in Figma, developed in React with p5.js and web3.js injection, deployed on AWS with Route53, EC2, and S3 bucket configuration, pipelined with Circle CI.
                     More details in the project section down below.
                 </p>
                 <a href="#contact"><button id="homeBtn" type="button">Contact</button></a>
