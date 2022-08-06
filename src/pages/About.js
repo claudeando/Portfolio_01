@@ -40,7 +40,7 @@ function About() {
                         <h4>TECHNICAL SKILLS:</h4>
                         <br />
                         <p>
-                            JavaScript /React / Node.js / HTML5 / CSS3 / SASS / Solidity /
+                            JavaScript / React / Node.js / HTML5 / CSS3 / SASS / Solidity /
                             NPM / Git / AWS / Figma / Photoshop / Lightroom / Illustrator / Premiere Pro / Blender /
                             Digital Art / Photography / Image Manipulation / Film Production / 3D Art
                         </p>
