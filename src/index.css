@@ -17,7 +17,7 @@
 :root {
     font-family: Helvetica;
     --primary-color: #353535;
-    --secondary-color: #757575;
+    --secondary-color: #505050;
     --accent-color: #A8003A;
 
     /*linear-gradient(149.74deg, #f0f0f0 0%, rgb(255, 255, 255) 46.92%, #f0f0f0 99.88%);*/
@@ -96,6 +96,29 @@ h4 {
 a {
     padding: 0.2rem 0.5rem;
     text-decoration: none;
+}
+
+@media (max-width: 950px) {
+    h2 {
+        font-size: 0.7rem;
+        font-weight: 400;
+        margin-bottom: 0.5rem;
+    }
+
+    h3 {
+        font-size: 0.8rem !important;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+
+    p,
+    a,
+    li,
+    button {
+        font-size: 0.65rem;
+        line-height: 2.5;
+        letter-spacing: .1rem;
+    }
 }
 
 

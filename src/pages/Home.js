@@ -13,7 +13,7 @@ function Home() {
                 <p>This is a Claude Ando creative portfolio where I showcase my web development skillsets
                     coupled with my creative visions. Designed in Figma, developed in React with p5.js and
                     web3.js injection, deployed on AWS with Route53, EC2, and S3 bucket configuration, pipelined with Circle CI.
-                    More details in the project section.
+                    More details in the project section down below.
                 </p>
                 <a href="#contact"><button id="homeBtn" type="button">Contact</button></a>
             </div>
