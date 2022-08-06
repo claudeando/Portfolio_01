@@ -541,6 +541,43 @@ section {
   }
 }
 
+/* ------------------------------ work/design */
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.project img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+/* ------------------------------ work/nft */
+
+.nft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nft img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.nftDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
 
 
@@ -590,45 +627,6 @@ section {
 .film iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
-}
-
-
-/* ------------------------------ work/design */
-
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
-}
-
-.project img {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-}
-
-
-/* ------------------------------ work/nft */
-
-.nft {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
-}
-
-.nft img {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-}
-
-.nftDescription {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 
 
