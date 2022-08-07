@@ -146,21 +146,6 @@ footer p {
 
 /* ------------------------------ basic setting */
 
-ul li {
-  list-style: none;
-}
-
-#work img {
-  transition: transform 1000ms ease-in-out;
-
-}
-
-#work img:hover {
-  position: relative;
-  transform: scale(1.05);
-  transition: transform 500ms ease-in-out;
-}
-
 main button {
   padding: 0.5rem;
   color: var(--accent-color);
@@ -253,6 +238,7 @@ section {
 #changingText::after {
   content: "";
   animation: spin 5s linear infinite;
+  -webkit-animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
@@ -268,6 +254,7 @@ section {
     content: "DIGITAL ARTIST";
   }
 }
+
 
 @media (max-width: 950px) {
 
@@ -495,6 +482,16 @@ section {
   display: flex;
 }
 
+#work img {
+  transition: transform 1000ms ease-in-out;
+}
+
+#work img:hover {
+  position: relative;
+  transform: scale(1.05);
+  transition: transform 500ms ease-in-out;
+}
+
 .workBtn {
   display: flex;
   justify-content: flex-end;
@@ -677,6 +674,7 @@ section {
   align-items: center;
   /* text-align: center; */
   gap: 4.5rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
 }
 
 @media (max-width: 950px) {

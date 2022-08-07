@@ -5,7 +5,7 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Project from './pages/Project.js';
 import Contact from './pages/Contact.js';
-import Error from './pages/404.js';
+// import Error from './pages/404.js';
 
 import P5 from './p5.js';
 // import Web3 from './web3.js';
@@ -91,6 +91,11 @@ function Footer() {
 
 
 function App() {
+  useEffect(() => {
+    window.addEventListener('mousemove', () => {
+
+    })
+  })
   return (
     <>
       {/* <Preloader></Preloabuckryder> */}
