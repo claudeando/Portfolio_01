@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import metamaskIcon from './svg/metamaskIcon.svg'
+
 function Web3() {
     const [loggedIn, setLoggedIn] = useState(false);
     const [walletId, setWalletId] = useState(null);
@@ -18,7 +20,7 @@ function Web3() {
             }
         } else {
             //Show a view to install metamask
-            alert("Meta Mask not detected in this browser");
+            alert("Meta Mask not supported in this browser");
         }
     }
 
@@ -28,23 +30,19 @@ function Web3() {
     }
 
     return (
-        <>
-            <section id="web3Login">
-
-
-                {!loggedIn && (
-                    <button onClick={() => login()}>
-                        {loggedIn ? 'Disconnect Wallet' : 'Connect wallet'}
-                    </button>
-                )}
-                {loggedIn && (
-                    <button onClick={() => logout()}>
-                        {loggedIn ? 'Disconnect Wallet' : 'Connect Wallet'}
-                    </button>
-                )}
-                <p>{walletId && walletId.slice(0, 6) + "..." + walletId.slice(-4)}</p>
-            </section>
-        </>
+        <section id="web3Login">
+            {!loggedIn && (
+                <button onClick={() => login()}>
+                    {loggedIn ? 'Disconnect Wallet' : <img src={metamaskIcon} />}
+                </button>
+            )}
+            {loggedIn && (
+                <button onClick={() => logout()}>
+                    {loggedIn ? 'Disconnect Wallet' : <img src={metamaskIcon} />}
+                </button>
+            )}
+            <p>{walletId && walletId.slice(0, 6) + "..." + walletId.slice(-4)}</p>
+        </section>
     )
 }
 
