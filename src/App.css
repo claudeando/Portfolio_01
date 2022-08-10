@@ -318,7 +318,7 @@ section {
 }
 
 .aboutBody {
-  width: 50rem;
+  width: 52.5rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -407,7 +407,7 @@ section {
 }
 
 .feature img {
-  width: 75%;
+  width: 52.5rem;
 }
 
 
@@ -433,6 +433,13 @@ section {
   align-content: center;
 }
 
+/* .workIntro {
+  min-height: 50vh;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+} */
+
 .workBody ul {
   display: flex;
   flex-direction: row;
@@ -457,13 +464,6 @@ section {
   text-decoration: none;
 }
 
-[data-tab-content] {
-  width: 100%;
-  min-height: 100vh;
-  padding: 0 10rem;
-  display: none;
-}
-
 .tab.active {
   position: relative;
   font-weight: 900;
@@ -471,22 +471,28 @@ section {
   border-bottom: 1px solid var(--accent-color);
 }
 
-.active[data-tab-content] {
-  display: block;
-}
-
 .tabContents {
   display: flex;
 }
 
-.workIntro {
-  min-height: 50vh;
+[data-tab-content] {
+  min-height: 100vh;
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+
+#project {
   display: flex;
-  flex-flow: wrap row;
+  justify-content: center;
   align-items: center;
 }
 
 .workGrid {
+  width: 52.5rem !important;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5rem;
