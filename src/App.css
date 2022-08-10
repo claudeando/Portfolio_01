@@ -426,7 +426,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   margin-bottom: 10rem;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
 }
@@ -475,28 +475,29 @@ section {
   border-bottom: 1px solid var(--accent-color);
 }
 
-.tabContents {
-  display: flex;
-}
-
 [data-tab-content] {
+  width: 52.5rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   display: none;
 }
 
 .active[data-tab-content] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   display: block;
 }
 
-
-#project {
+.tabContents {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .workGrid {
-  width: 52.5rem !important;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5rem;
@@ -549,6 +550,7 @@ section {
   }
 
   [data-tab-content] {
+    width: 100% !important;
     padding: 0 !important;
     display: none;
   }
@@ -687,7 +689,7 @@ section {
   .still img,
   .project img,
   .nft img {
-    max-width: 100% !important;
+    width: 100% !important;
     height: auto;
     object-fit: cover;
   }
