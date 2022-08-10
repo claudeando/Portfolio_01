@@ -3,18 +3,6 @@ import '../App.css';
 
 function Home() {
 
-    // // const [myName, setMyName] = useState();
-
-    // const myJpnName = document.getElementById('安藤蔵人');
-    // useEffect(() => {
-    //     myJpnName.addEventListener('mouseover', () => {
-    //         myJpnName.textContent = "CLAUDE ANDO";
-    //     })
-    //     // myJpnName.removeEventListener('mouseout', () => {
-    //     //     myJpnName.textContent = "CLAUDE ANDO";
-    //     // })
-    // }, [])
-
     return (
         <section id="home">
             <div className="homeBody1">

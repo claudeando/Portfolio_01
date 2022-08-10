@@ -54,7 +54,7 @@ function Project() {
                             <div className="projectDescription">
                                 <h3>Claude Ando Portfolio</h3>
                                 <br />
-                                <p>Claude Ando is a frontend developer and a digital artist based on London. This website was firstly built in Vanilla JavaScript and later migrated to React. The purpose of this website is to showcase my creative and development skillsets acquired overed the years. This website also authenticates if users own my NFT collection. Token holders will be redirected to a secret page of this website.
+                                <p>Claude Ando is a frontend developer and a digital artist based on London. This website was firstly built in Vanilla JavaScript and later migrated to React. The purpose of this website is to showcase my creative and development skillsets acquired over the years. This website also authenticates if users own my NFT collection. Token holders will be redirected to a secret page of this website.
                                 </p>
                             </div>
                         </div>

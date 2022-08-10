@@ -303,14 +303,18 @@ section {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: min(8rem, 10vw);
+  gap: min(10%, 15vw);
   margin-bottom: 4rem;
 }
 
 .aboutIntro img {
-  width: 15vw;
+  width: min(15vw, 35%);
   aspect-ratio: 2.5 / 3;
   object-fit: cover;
+}
+
+.aboutIntro h2 {
+  padding-left: 2.5rem
 }
 
 .aboutBody {
@@ -330,7 +334,7 @@ section {
 }
 
 
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
   .aboutIntro {
     flex-direction: column;
   }
@@ -338,7 +342,7 @@ section {
   #about h2 {
     text-align: center;
   }
-}
+} */
 
 
 @media (max-width: 950px) {
@@ -667,7 +671,8 @@ section {
 /* ------------------------------ contact */
 
 #contact {
-  padding: 0 25rem;
+  padding: 0 max(21.5vw, 18.5%);
+  /* padding: 0 25rem; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import './index.css';
+
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Project from './pages/Project.js';

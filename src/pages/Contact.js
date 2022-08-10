@@ -9,7 +9,7 @@ function Contact() {
                 <p>Feel free to inquire me if your have any creative or development projects. Even if it is
                     something that is not within my domain, I might still be able to recommend talented people from my
                     contacts. <br /><br />
-                    Or.. book a 30 min or 90 min session and discuss your project over a video call below.
+                    Or, book a 30 min session and discuss your project over a call below.
                 </p>
                 <br />
                 <a href="mailto: info@claudeando.com"><button type="button">info@claudeando.com</button></a>

@@ -6,15 +6,7 @@ function About() {
             <div className="aboutIntro">
                 <img className="profileImg" src="../assets/images/about/profileImg.jpg" alt="profile" />
                 <h2 className="sectionTitle">
-                    <span>
-                        I DESIGN AND DEVELOP{` `}
-                    </span>
-                    <span>
-                        AMBITIOUS PROJECTS WITH{` `}
-                    </span>
-                    <span>
-                        TECHNOLOGY AND ART.
-                    </span>
+                    NO BS,<br></br> JUST BUILD APPS WITH TECHNOLOGY AND ART.
                 </h2>
             </div>
             <div className="aboutBody">
@@ -25,10 +17,8 @@ function About() {
                     niche lies in my creative visons coupled with technical skillsets in various mediums. For about 10
                     years, I have been in the creative industry, starting from 2015 working as a assistant fashion
                     designer in Tokyo, from 2018 freelance photograpgher and videographer at university. Now the
-                    creative skillsets developed to frontend development. <br /><br />
-                    I have directed, designed, and developed websites for myself, talented individuals and startups. I
-                    also launched a tech startup called nocturna.io and co-desined, and developed web3 integration
-                    solutions for corporations. My artwork has been featured by well-known magazines such as Vogue
+                    creative skillsets developed to software development. <br /><br />
+                    I have directed, designed, and developed web applications for talented individuals and small-to-mid-sized businesses. Launched a tech startup, nocturna.io and desined, and developed a web3 integration SASS toolkit. My artwork has been featured by well-known magazines such as Vogue
                     Italia, The Independent Photo, Palatinate by Durham University. <br /><br />
                     Outside design / development work, I love investing my time in more projects such as creating
                     digital art pieces, having a constructive conversation, brainstormig business ideas, or launching
@@ -40,9 +30,9 @@ function About() {
                         <h4>TECHNICAL SKILLS:</h4>
                         <br />
                         <p>
-                            JavaScript / React / Node.js / HTML5 / CSS3 / SASS / Solidity /
-                            NPM / Git / AWS / Figma / Photoshop / Lightroom / Illustrator / Premiere Pro / Blender /
-                            Digital Art / Photography / Image Manipulation / Film Production / 3D Art
+                            JavaScript / React / Node.js / HTML / CSS / SASS / Solidity /
+                            NPM / Git / AWS / Figma / Photoshop / Lightroom / Blender / Davinci Resolve /
+                            Digital Art / Photography / Image Processing-Manipulation / Film Production / 3D Art
                         </p>
                     </div>
                     <div>
