@@ -4,7 +4,7 @@ import { PopupButton } from "react-calendly";
 function Contact() {
     return (
         <section id="contact">
-            <div className="contactDescription">
+            <div className="contactBody">
                 <h2 className="sectionTitle">AVAILABLE FOR PROJECT</h2>
                 <p>Feel free to inquire me if your have any creative or development projects. Even if it is
                     something that is not within my domain, I might still be able to recommend talented people from my

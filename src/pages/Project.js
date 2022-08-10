@@ -44,9 +44,9 @@ function Project() {
                             <div className="projectDescription">
                                 <h3>Nocturna.io</h3>
                                 <br />
-                                <p>Nocturna.io is a tech startup based in London. They provides a B2M SaaS Toolkit that simplifies and transforms business processes in the Web3 space. The website was built on a CMS. The SaaS was designed in Figma, developped in React and Node.js, deployed on AWS with Route53, EC2, S3 configuration, pipelined with Circle CI. <br /><br /> More details coming soon.</p>
+                                <p>Nocturna.io is a tech startup based in London. They provides a B2M SaaS Toolkit that simplifies and transforms business processes in the Web3 space. The website was built on a CMS. The SaaS was designed in Figma, developped in React and Node.js, deployed on AWS with Route53, EC2, S3 configuration, pipelined with Circle CI. <br /><br /> More details coming soon.
+                                </p>
                             </div>
-
                         </div>
 
                         <div className="project">

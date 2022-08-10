@@ -284,7 +284,6 @@ section {
 
 
 
-
 /* ------------------------------ about */
 
 #about {
@@ -292,32 +291,34 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10rem;
   margin-bottom: 10rem;
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
 }
 
 .aboutIntro {
+  width: 50rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: min(10%, 15vw);
   margin-bottom: 4rem;
 }
 
 .aboutIntro img {
-  width: min(15vw, 35%);
+  width: 25%;
   aspect-ratio: 2.5 / 3;
   object-fit: cover;
 }
 
 .aboutIntro h2 {
+  width: 75%;
   padding-left: 2.5rem
 }
 
 .aboutBody {
+  width: 50rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -332,18 +333,6 @@ section {
   align-items: flex-start !important;
   gap: 3rem;
 }
-
-
-/* @media (max-width: 1300px) {
-  .aboutIntro {
-    flex-direction: column;
-  }
-
-  #about h2 {
-    text-align: center;
-  }
-} */
-
 
 @media (max-width: 950px) {
   #about {
@@ -362,6 +351,7 @@ section {
     text-align: center;
     font-size: 1rem !important;
     line-height: 3rem;
+    padding-left: 0
   }
 
   #about h2 span:nth-child(1) {
@@ -380,6 +370,7 @@ section {
   }
 
   .aboutIntro {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -388,6 +379,7 @@ section {
   }
 
   .aboutBody {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -429,6 +421,7 @@ section {
 #work {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-content: center;
   margin-bottom: 10rem;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
@@ -484,6 +477,34 @@ section {
 
 .tabContents {
   display: flex;
+}
+
+.workIntro {
+  min-height: 50vh;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+}
+
+.workGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+}
+
+.workGrid img {
+  width: 100% !important;
+}
+
+.workContent {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 950px) {
+  .workGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 #work img {
@@ -582,6 +603,7 @@ section {
 
 
 
+
 /* ------------------------------ work/art */
 
 .art {
@@ -671,8 +693,6 @@ section {
 /* ------------------------------ contact */
 
 #contact {
-  padding: 0 max(21.5vw, 18.5%);
-  /* padding: 0 25rem; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -682,49 +702,22 @@ section {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
 }
 
+.contactBody {
+  width: 35rem;
+}
+
 @media (max-width: 950px) {
   #contact {
     flex-direction: column;
-    padding: 0;
+  }
+
+  .contactBody {
+    width: 100%;
   }
 }
 
 
 
-
-
-
-
-
-/* ------------------------------ work page */
-
-.workIntro {
-  min-height: 50vh;
-  display: flex;
-  flex-flow: wrap row;
-  align-items: center;
-}
-
-.workGrid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5rem;
-}
-
-.workGrid img {
-  width: 100%;
-}
-
-.workContent {
-  display: flex;
-  flex-direction: column;
-}
-
-@media (max-width: 950px) {
-  .workGrid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
 
 
 
