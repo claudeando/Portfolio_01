@@ -36,7 +36,6 @@ function Project() {
 
                 <div id="project" data-tab-content className="active">
                     <div className="workGrid">
-
                         <div className="project">
                             <a href="https://nocturna.io" target="_blank" rel="noopener noreferrer">
                                 <img src="../assets/images/work/project/nocturna.io.jpg" alt="nocturna.io" />
