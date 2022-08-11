@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import './index.css';
 
@@ -6,6 +6,7 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Project from './pages/Project.js';
 import Contact from './pages/Contact.js';
+import Loading from './pages/Loading.js';
 // import Error from './pages/404.js';
 
 import P5 from './p5.js';
@@ -18,6 +19,13 @@ import {
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
+
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-23SXWNFYHN"; // YOUR_OWN_TRACKING_ID
+
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname);
 
 
 
@@ -92,29 +100,35 @@ function Footer() {
 
 
 function App() {
-  useEffect(() => {
-    window.addEventListener('mousemove', () => {
+  const [loading, setLoading] = useState(true);
 
-    })
-  })
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 6000)
+  }, [])
+
   return (
     <>
-      {/* <Preloader></Preloabuckryder> */}
-      <Header></Header>
+      {!loading ? (
+        <>
+          <Header></Header>
 
-      <main>
-        <div id="canvasForHTML" />
-        <P5></P5>
+          <main>
+            <div id="canvasForHTML" />
+            <P5></P5>
 
-        <Home></Home>
-        <About></About>
-        <Project></Project>
-        <Contact></Contact>
-        {/* <Error></Error> */}
-      </main>
+            <Home></Home>
+            <About></About>
+            <Project></Project>
+            <Contact></Contact>
+            {/* <Error></Error> */}
+          </main>
 
-      {/* <Web3></Web3> */}
-      <Footer></Footer>
+          {/* <Web3></Web3> */}
+          <Footer></Footer>
+        </>
+      ) : (
+        <Loading></Loading>
+      )}
     </>
   );
 }

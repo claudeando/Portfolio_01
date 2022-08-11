@@ -190,7 +190,7 @@ main button:hover {
 
 section {
   min-height: 100vh;
-  margin: 0 max(2rem, 12vw);
+  /* margin: 0 max(2rem, 12vw); */
 }
 
 @media (max-width: 950px) {
@@ -674,6 +674,7 @@ section {
   .nft {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 1.5rem;
     margin-bottom: 2.5rem;
@@ -730,6 +731,46 @@ section {
 
 
 
+
+/* ------------------------------ loading */
+
+#loading {
+  background: #f0f0f0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#loading img {
+  width: 5rem;
+  height: auto;
+}
+
+#loading span {
+  text-align: center !important;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: var(--secondary-color);
+  font-size: 0.5rem;
+  font-weight: 100;
+  line-height: 2;
+  letter-spacing: .5rem;
+  animation: fontColor 2s infinite;
+}
+
+@keyframes fontColor {
+  from {
+    color: white;
+  }
+
+  to {
+    color: black;
+  }
+}
 
 
 
