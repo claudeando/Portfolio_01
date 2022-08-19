@@ -755,8 +755,6 @@ section {
   animation: transition 5s infinite;
 }
 
-#loading div:nth-child(1) {}
-
 @keyframes transition {
   from {
     transform: scale(1.25);
@@ -764,7 +762,7 @@ section {
   }
 
   50% {
-    transform: scale(1) rotate(180deg);
+    transform: scale(1) rotate(180deg) scaleX(-1) rotateY(-180deg);
     border: .85px solid var(--accent-color);
   }
 
@@ -799,7 +797,6 @@ section {
 
 
 #loading span {
-  text-align: center !important;
   padding: 0;
   margin: 0;
   background: transparent;
@@ -808,7 +805,7 @@ section {
   font-weight: 100;
   line-height: 2;
   letter-spacing: .5rem;
-  animation: fontColor 2s infinite;
+  animation: fontColor 5s infinite;
 }
 
 @keyframes fontColor {
