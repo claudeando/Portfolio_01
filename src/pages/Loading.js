@@ -4,13 +4,12 @@ function Loading() {
 
     return (
         <section id="loading">
-            <img src="../assets/utility/logo.png" alt="loading icon" />
+            <div>
+                <div>
+                    <img src="../assets/utility/logo.png" alt="loading icon" />
+                </div>
+            </div>
             <span>LOADING</span>
-            {/* <div className="dots">
-                <span>.</span>
-                <span>.</span>
-                <span>.</span>
-            </div> */}
         </section>
     );
 }

@@ -741,13 +741,62 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2.5rem;
+}
+
+#loading div {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  animation: transition 5s infinite;
+}
+
+#loading div:nth-child(1) {}
+
+@keyframes transition {
+  from {
+    transform: scale(1.25);
+    border: 2.5px solid whitesmoke;
+  }
+
+  50% {
+    transform: scale(1) rotate(180deg);
+    border: .85px solid var(--accent-color);
+  }
+
+  to {
+    transform: scale(1.25);
+    border: 2.5px solid whitesmoke;
+  }
 }
 
 #loading img {
   width: 5rem;
-  height: auto;
+  height: 5rem;
+  animation: imgTransition 10s infinite;
 }
+
+@keyframes imgTransition {
+  from {
+    transform: scale(.5);
+    border: 1px solid whitesmoke;
+  }
+
+  50% {
+    transform: scale(0.65) rotate(0deg);
+    border: 2.5px solid whitesmoke;
+  }
+
+  to {
+    transform: scale(.5);
+    border: 1px solid whitesmoke;
+  }
+}
+
 
 #loading span {
   text-align: center !important;
