@@ -777,13 +777,11 @@ section {
 /* ------------------------------ 404 page */
 
 #page404 {
-  box-sizing: border-box;
-  width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 5rem;
 }
 
@@ -797,18 +795,20 @@ section {
   width: 55ch;
 }
 
+
 @media (max-width: 950px) {
   #page404 {
-
-    gap: 5rem;
+    min-height: 100vh;
+    gap: 2.5rem;
   }
 
   #page404 h1 {
-    font-size: 8rem;
+    font-size: 1.25rem;
   }
 
   #page404 p {
-    width: 100%;
+
+    width: 100% !important;
   }
 }
 
