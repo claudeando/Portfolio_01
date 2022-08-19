@@ -18,7 +18,8 @@ function About() {
                     years, I have been in the creative industry, starting from 2015 working as a assistant fashion
                     designer in Tokyo, from 2018 freelance photograpgher and videographer at university. Now the
                     creative skillsets developed to software development. <br /><br />
-                    I have directed, designed, and developed web applications for talented individuals and small-to-mid-sized businesses. Launched a tech startup, nocturna.io and desined, and developed a web3 integration SASS toolkit. My artwork has been featured by well-known magazines such as Vogue
+                    I have directed, designed, and developed web applications for talented individuals and small-to-mid-sized businesses. Launched a tech startup, nocturna.io and desined, and developed a web3 integration SASS toolkit.
+                    My artwork has been featured by well-known magazines such as Vogue
                     Italia, The Independent Photo, Palatinate by Durham University. <br /><br />
                     Outside design / development work, I love investing my time in more projects such as creating
                     digital art pieces, having a constructive conversation, brainstormig business ideas, or launching

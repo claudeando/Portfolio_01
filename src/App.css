@@ -12,7 +12,7 @@ header {
   align-items: center;
 }
 
-.logo img {
+#logo img {
   position: relative;
   top: 0.5rem;
   width: 2rem;
@@ -75,7 +75,7 @@ nav ul li.active a {
     align-items: flex-start;
   }
 
-  .logo img {
+  #logo img {
     width: 2.5rem !important;
     height: auto;
     position: absolute;
@@ -887,7 +887,7 @@ section {
 
 /* ------------------------------ p5 setting */
 
-#canvasForHTML {
+aside {
   display: block;
   position: fixed;
   z-index: -100;
@@ -898,7 +898,7 @@ section {
 }
 
 @media (max-width: 950px) {
-  #canvasForHTML {
+  aside {
     display: none;
   }
 }

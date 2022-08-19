@@ -4,11 +4,14 @@ import Sketch from "react-p5";
 let t;
 let increment = 0.0005;
 
+const width = window.innerWidth;
+const height = window.innerHeight;
+
+
 const P5 = () => {
     const setup = (p5, canvasParentRef) => {
 
-        canvasParentRef = p5.createCanvas(p5.windowWidth, p5.windowHeight).parent(canvasParentRef);
-        canvasParentRef.parent('canvasForHTML');
+        canvasParentRef = p5.createCanvas(width, height).parent(canvasParentRef);
 
         p5.frameRate(24);
         p5.strokeWeight(0.1);
