@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
+
 import './App.css';
 import './index.css';
 
@@ -10,12 +12,22 @@ import About from './pages/About.js';
 import Project from './pages/Project.js';
 import Contact from './pages/Contact.js';
 import Loading from './pages/Loading.js';
-// import Error from './pages/404.js';
+import Error from './pages/404.js';
 
 import P5 from './p5.js';
 // import Web3 from './web3.js';
 
 
+function Main() {
+  return (
+    <>
+      <Home />
+      <About />
+      <Project />
+      <Contact />
+    </>
+  )
+}
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,13 +42,11 @@ function App() {
         <>
           <Header></Header>
           <main>
-            <Home></Home>
-            <About></About>
-            <Project></Project>
-            <Contact></Contact>
-            {/* <Error></Error> */}
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="*" element={<Error />} />
+            </Routes>
           </main>
-
           <aside>
             <P5></P5>
           </aside>
@@ -48,7 +58,7 @@ function App() {
         <Loading></Loading>
       )}
     </>
-  );
+  )
 }
 
 export default App;

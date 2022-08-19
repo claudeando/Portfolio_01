@@ -778,11 +778,12 @@ section {
 
 #page404 {
   box-sizing: border-box;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 5rem;
 }
 
@@ -793,7 +794,7 @@ section {
 }
 
 #page404 p {
-  width: 75ch;
+  width: 55ch;
 }
 
 @media (max-width: 950px) {
