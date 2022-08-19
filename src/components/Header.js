@@ -31,7 +31,7 @@ function Header() {
     return (
         <header>
             <div id="logo">
-                <a href="index.html"><img src="../assets/utility/logo.png" alt="a logo" /></a>
+                <a href="/"><img src="../assets/utility/logo.png" alt="a logo" /></a>
             </div>
             <nav>
                 <ul className="mainMenu">
