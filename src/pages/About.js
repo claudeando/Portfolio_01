@@ -6,7 +6,7 @@ function About() {
             <div className="aboutIntro">
                 <img className="profileImg" src="../assets/images/about/profileImg.jpg" alt="profile" />
                 <h2 className="sectionTitle">
-                    NO BS,<br></br> JUST BUILD APPS WITH TECHNOLOGY AND ART.
+                    NO BS,<br></br> JUST CREATE APPS WITH ART.
                 </h2>
             </div>
             <div className="aboutBody">

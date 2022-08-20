@@ -762,7 +762,7 @@ section {
   }
 
   50% {
-    transform: scale(1) rotate(180deg) scaleX(-1) rotateY(-180deg);
+    transform: scale(.8) rotate(180deg);
     border: .85px solid var(--accent-color);
   }
 
@@ -865,69 +865,6 @@ section {
   align-items: flex-start;
   gap: 1.5rem;
   margin-bottom: 5rem;
-}
-
-
-
-/* ------------------------------ preloader setting */
-
-#preloader {
-  width: 100vw;
-  min-height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #f0f0f0;
-}
-
-#preloader img {
-  position: absolute;
-  width: min(35vw, 10rem) !important;
-  height: auto;
-  z-index: 100;
-
-  transform:
-    rotateX(51deg) rotateZ(43deg);
-  transform-style: preserve-3d;
-  box-shadow:
-    1px 1px 0 1px #f9f9fb,
-    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
-    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
-  transition:
-    .4s ease-in-out transform,
-    .4s ease-in-out box-shadow;
-  animation: loading 3000ms ease-in-out infinite;
-}
-
-@keyframes loading {
-  from {
-    transform: translate3d(0px, -50px, 0px) rotateX(51deg) rotateZ(43deg);
-    box-shadow:
-      1px 1px 0 1px #f9f9fb,
-      -1px 0 28px 0 rgba(34, 33, 81, 0.01),
-      54px 54px 28px -10px rgba(34, 33, 81, 0.04);
-  }
-
-  50% {
-    transform: translate3d(0px, -10px, 0px) rotateX(51deg) rotateZ(43deg);
-    box-shadow:
-      1px 1px 0 1px #f9f9fb,
-      -1px 0 28px 0 rgba(34, 33, 81, 0.01),
-      54px 54px 28px -10px rgba(34, 33, 81, 0.108);
-  }
-
-  to {
-    transform: translate3d(0px, -50px, 0px) rotateX(51deg) rotateZ(43deg);
-    box-shadow:
-      1px 1px 0 1px #f9f9fb,
-      -1px 0 28px 0 rgba(34, 33, 81, 0.01),
-      54px 54px 28px -10px rgba(34, 33, 81, 0.04);
-  }
 }
 
 
