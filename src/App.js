@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import ReactGA from 'react-ga';
-
 
 import './App.css';
 import './index.css';
@@ -18,9 +16,6 @@ import Error from './pages/404.js';
 
 import P5 from './p5.js';
 // import Web3 from './web3.js';
-
-const TRACKING_ID = "G-23SXWNFYHN"; // YOUR_OWN_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
 
 
 function Main() {

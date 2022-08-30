@@ -32,8 +32,7 @@ function About() {
                         <br />
                         <p>
                             JavaScript / React / Node.js / HTML / CSS / SASS / Solidity /
-                            NPM / Git / AWS / Figma / Photoshop / Lightroom / Blender / Davinci Resolve /
-                            Digital Art / Photography / Image Processing-Manipulation / Film Production / 3D Art
+                            NPM / Git / AWS / CI/CD / Figma / Spline / Photoshop / Lightroom / Blender / Davinci Resolve / Photography / Image Processing-Manipulation / Film Production / 3D Art
                         </p>
                     </div>
                     <div>
