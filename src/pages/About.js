@@ -31,8 +31,8 @@ function About() {
                         <h4>TECHNICAL SKILLS:</h4>
                         <br />
                         <p>
-                            JavaScript / React / Node.js / HTML / CSS / SASS / Solidity /
-                            NPM / Git / AWS / CI/CD / Figma / Spline / Photoshop / Lightroom / Blender / Davinci Resolve / Photography / Image Processing-Manipulation / Film Production / 3D Art
+                            JavaScript / React.js / Next.js / Node.js / HTML / CSS / SASS / WebGL /
+                            Git / AWS / CI/CD / Blender / Figma / Photoshop / Lightroom / Davinci Resolve / Photography / Image Processing-Manipulation / Film Production / 3D Art
                         </p>
                     </div>
                     <div>

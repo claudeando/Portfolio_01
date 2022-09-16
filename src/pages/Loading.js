@@ -5,9 +5,7 @@ function Loading() {
     return (
         <section id="loading">
             <div>
-                <div>
-                    <img src="../assets/utility/logo.png" alt="loading icon" />
-                </div>
+                <img src="../assets/utility/logo.png" alt="loading icon" />
             </div>
             <span>LOADING</span>
         </section>
