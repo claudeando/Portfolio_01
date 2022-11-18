@@ -1,4 +1,4 @@
-# Clause Ando Creative Portfolio 2022
+# Claude Ando Creative Portfolio 2022
 
 This website was designed in Figma, developed in React.js, deployed in AWS, pipelined with CircleCI.
 The purpose of this website is to showcase my various skillsets in software development, and creative visions I have as a developer. 
